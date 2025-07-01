@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade Finanças Inteligentes - Milhas e Investimentos</title>
+    <meta name="description" content="Comunidade exclusiva para dominar suas finanças, investimentos inteligentes e acúmulo estratégico de milhas aéreas. Transforme sua vida financeira.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Checkout Script -->
+    <script src="js/checkout.js"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <img src="assets/favicon.png" alt="Logo" class="logo-img">
+                        <span class="logo-text">Economiza</span>
+                    </div>
+                    <div class="nav-cta">
+                        <a href="#inscricao" class="btn btn-primary">Quero me Inscrever</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Transforme Sua <span class="highlight">Vida Financeira</span> e Viaje Mais com <span class="highlight">Inteligência</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Descubra as estratégias secretas para otimizar seus investimentos, 
+                        acumular milhas aéreas e alcançar a liberdade financeira.
+                    </p>
+                    <div class="hero-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Estratégias de investimento comprovadas</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Métodos para acumular milhas rapidamente</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Grupo exclusivo de materiais e suporte</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#inscricao" class="btn btn-primary btn-large">
+                            <i class="fas fa-plane"></i>
+                            Quero Aprender Agora
+                        </a>
+                        <p class="cta-subtitle">Vagas limitadas • Oferta por tempo limitado</p>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-visual">
+                        <img src="assets/hero-travel.jpg" alt="Viagem dos sonhos" class="hero-bg-image">
+                    </div>
+                    <div class="hero-card">
+                        <div class="card-content">
+                            <h3>Comunidade Finanças Inteligentes</h3>
+                            <div class="price">
+                                <span class="old-price">De R$ 997</span>
+                                <span class="new-price">Por apenas R$ 497</span>
+                                <span class="installment-price">ou 12x de R$ 49,70</span>
+                            </div>
+                            <div class="countdown" id="countdown">
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="hours">23</span>
+                                    <span class="countdown-label">Horas</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="minutes">59</span>
+                                    <span class="countdown-label">Minutos</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="seconds">59</span>
+                                    <span class="countdown-label">Segundos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section class="problema">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Você Está Deixando Dinheiro na Mesa?</h2>
+                <div class="problema-grid">
+                    <div class="problema-item">
+                        <div class="problema-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Dinheiro Parado</h3>
+                        <p>Seu dinheiro está perdendo valor na poupança ou em investimentos de baixo rendimento.</p>
+                    </div>
+                    <div class="problema-item">
+                        <div class="problema-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Oportunidades Perdidas</h3>
+                        <p>Você não sabe como identificar e aproveitar as melhores oportunidades de investimento.</p>
+                    </div>
+                    <div class="problema-item">
+                        <div class="problema-icon">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h3>Viagens Caras</h3>
+                        <p>Você ainda paga caro em passagens aéreas, sem usar as milhas a seu favor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solução Section -->
+    <section class="solucao">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">A Comunidade Que Vai Transformar Suas Finanças</h2>
+                <div class="solucao-content">
+                    <div class="solucao-text">
+                        <h3>Comunidade Finanças Inteligentes: Milhas, Investimentos e Liberdade Financeira</h3>
+                        <p>
+                            Nesta comunidade exclusiva, você terá acesso a um ecossistema completo para 
+                            dominar suas finanças, desde o acúmulo estratégico de milhas até investimentos 
+                            inteligentes que geram renda passiva.
+                        </p>
+                        <div class="solucao-benefits">
+                            <div class="benefit">
+                                <i class="fas fa-chart-pie"></i>
+                                <div>
+                                    <h4>Estratégias de Investimento</h4>
+                                    <p>Aprenda a investir em renda fixa, variável e criptoativos com segurança</p>
+                                </div>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-plane-departure"></i>
+                                <div>
+                                    <h4>Milhas Aéreas Avançadas</h4>
+                                    <p>Domine o universo das milhas para viajar mais e com menos</p>
+                                </div>
+                            </div>
+                            <div class="benefit">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>Comunidade de Apoio</h4>
+                                    <p>Troque experiências com quem está na mesma jornada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="solucao-image">
+                        <img src="assets/destinations.jpg" alt="Destinos incríveis" class="solucao-img">
+                        <div class="stats-card">
+                            <h4>Meus Resultados:</h4>
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-number">100K+</div>
+                                    <div class="stat-label">Milhas Acumuladas</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">R$ 2K+</div>
+                                    <div class="stat-label">Economizados por Viagem</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">5+</div>
+                                    <div class="stat-label">Anos de Experiência</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section class="beneficios">
+        <div class="container">
+            <div class="section-cont                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Investimentos Inteligentes</h3>
+                            <p>Estratégias para investir em renda fixa, variável, fundos imobiliários e criptomoedas.</p>
+                        </div>
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <h3>Milhas Aéreas Descomplicadas</h3>
+                            <p>Aprenda a acumular, gerenciar e resgatar milhas para viajar de graça.</p>
+                        </div>
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-piggy-bank"></i>
+                            </div>
+                            <h3>Planejamento Financeiro</h3>
+                            <p>Organize suas finanças, crie um orçamento e alcance seus objetivos financeiros.</p>
+                        </div>
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <h3>Renda Extra e Oportunidades</h3>
+                            <p>Descubra formas de gerar renda adicional e aproveitar oportunidades de mercado.</p>
+                        </div>
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Proteção Financeira</h3>
+                            <p>Aprenda sobre seguros, previdência e como proteger seu patrimônio.</p>
+                        </div>
+                        <div class="beneficio-item">
+                            <div class="beneficio-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Networking e Suporte</h3>
+                            <p>Conecte-se com uma comunidade de pessoas com os mesmos objetivos e receba suporte.</p>      </div>
+        </div>
+    </section>
+
+    <!-- Instrutor Section -->
+    <section class="instrutor">
+        <div class="container">
+            <div class="section-content">
+                <div class="instrutor-content">
+                    <div class="instrutor-image">
+                        <img src="assets/favicon.png" alt="Instrutor" class="instrutor-foto">
+                        <div class="credenciais">
+                            <div class="credencial">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Economista Formada</span>
+                            </div>
+                            <div class="credencial">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Planejadora Financeira</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instrutor-text">
+                        <h2>Quem Vai Te Guiar</h2>
+                        <h3>Economista e Planejadora Financeira</h3>
+                        <p>
+                            Economista formada com mais de 5 anos de experiência em planejamento financeiro. 
+                            Especialista em otimização de gastos e acúmulo estratégico de milhas aéreas, 
+                            já acumulei mais de 100.000 milhas e economizo mais de R$ 2.000 por viagem.
+                        </p>
+                        <div class="instrutor-stats">
+                            <div class="stat">
+                                <strong>5+</strong>
+                                <span>Anos de Experiência</span>
+                            </div>
+                            <div class="stat">
+                                <strong>100K+</strong>
+                                <span>Milhas Acumuladas</span>
+                            </div>
+                            <div class="stat">
+                                <strong>R$ 2K+</strong>
+                                <span>Economizados por Viagem</span>
+                            </div>
+                        </div>
+                        <p>
+                            "Minha missão é capacitar você a tomar as melhores decisões financeiras, 
+                            construir riqueza e desfrutar da liberdade de viajar o mundo."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conteúdo Section -->
+    <section class="conteudo">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Conteúdo Completo da Comunidade</h2>
+                <div class="modulos-grid">
+                    <div class="modulo">
+                        <div class="modulo-header">
+                            <div class="modulo-numero">01</div>
+                            <h3>Fundamentos Financeiros</h3>
+                        </div>
+                        <div class="modulo-content">
+                            <ul>
+                                <li>Como funciona o dinheiro e a inflação</li>
+                                <li>Orçamento e controle de gastos</li>
+                                <li>Formação de reserva de emergência</li>
+                                <li>Metas financeiras e planejamento</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modulo">
+                        <div class="modulo-header">
+                            <div class="modulo-numero">02</div>
+                            <h3>Investimentos para Iniciantes</h3>
+                        </div>
+                        <div class="modulo-content">
+                            <ul>
+                                <li>Renda Fixa: CDB, LCI, LCA, Tesouro Direto</li>
+                                <li>Renda Variável: Ações, Fundos Imobiliários, ETFs</li>
+                                <li>Como começar a investir com pouco dinheiro</li>
+                                <li>Análise de risco e perfil de investidor</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modulo">
+                        <div class="modulo-header">
+                            <div class="modulo-numero">03</div>
+                            <h3>Estratégias Avançadas e Milhas</h3>
+                        </div>
+                        <div class="modulo-content">
+                            <ul>
+                                <li>Investimentos de alto rendimento e criptoativos</li>
+                                <li>Otimização de milhas: compra, venda e resgate</li>
+                                <li>Geração de renda passiva com investimentos</li>
+                                <li>Planejamento para aposentadoria e grandes objetivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modulo">
+                        <div class="modulo-header">
+                            <div class="modulo-numero">04</div>
+                            <h3>Comunidade e Suporte</h3>
+                        </div>
+                        <div class="modulo-content">
+                            <ul>
+                                <li>Acesso à comunidade exclusiva no Telegram/Discord</li>
+                                <li>Mentorias e aulas ao vivo com especialistas</li>
+                                <li>Análise de carteiras e estratégias personalizadas</li>
+                                <li>Suporte contínuo para suas dúvidas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bonus-section">
+                    <h3>Bônus Exclusivos para Membros</h3>
+                    <div class="bonus-grid">
+                        <div class="bonus-item">
+                            <i class="fas fa-file-alt"></i>
+                            <div>
+                                <h4>Material Complementar</h4>
+                                <p>E-books, planilhas e guias práticos para aprofundar seus conhecimentos</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>Gravações de Aulas e Mentorias</h4>
+                                <p>Acesso a todo o acervo de conteúdos exclusivos da comunidade</p>
+                            </div>
+                        </div>
+                        <div class="bonus-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h4>Calendário de Eventos</h4>
+                                <p>Participe de lives, webinars e encontros com especialistas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgência Section -->
+    <section class="urgencia">
+        <div class="container">
+            <div class="section-content">
+                <div class="urgencia-content">
+                    <h2>⚠️ Oferta Por Tempo Limitado</h2>
+                    <p>Esta é uma oportunidade única! O preço especial de lançamento termina em:</p>
+                    
+                    <div class="countdown-large" id="countdown-large">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours-large">23</span>
+                            <span class="countdown-label">Horas</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes-large">59</span>
+                            <span class="countdown-label">Minutos</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds-large">59</span>
+                            <span class="countdown-label">Segundos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="urgencia-warning">
+                        <p><strong>Após esse prazo, o valor volta para R$ 497</strong></p>
+                        <p>Apenas <span class="vagas-restantes">23 vagas</span> restantes!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preço Section -->
+    <section class="preco" id="inscricao">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Invista em Seu Futuro Financeiro</h2>
+                <div class="preco-card">
+                    <div class="preco-header">
+                        <h3>Plano Anual - Comunidade Finanças Inteligentes</h3>
+                        <p>Acesso completo por 12 meses + Bônus exclusivos</p>
+                    </div>
+                    <div class="preco-valor">
+                        <span class="preco-antigo">De R$ 997</span>
+                        <span class="preco-atual">Por apenas</span>
+                        <span class="preco-numero">R$ 497</span>
+                        <span class="preco-parcelado">ou 12x de R$ 49,70</span>
+                    </div>
+                    <div class="preco-beneficios">
+                        <div class="beneficio">
+                            <i class="fas fa-check"></i>
+                            <span>Acesso ilimitado a todo o conteúdo</span>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check"></i>
+                            <span>Aulas e mentorias ao vivo</span>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check"></i>
+                            <span>Grupo exclusivo de materiais e suporte</span>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check"></i>
+                            <span>Material complementar e ferramentas</span>
+                        </div>
+                        <div class="beneficio">
+                            <i class="fas fa-check"></i>
+                            <span>Garantia de 7 dias</span>
+                        </div>
+                    </div>
+                    <div class="preco-cta">
+                        <a href="#" class="btn btn-primary btn-large" onclick="abrirCheckout()">
+                            <i class="fas fa-credit-card"></i>
+                            Quero Garantir Minha Vaga
+                        </a>
+                        <p class="seguranca">
+                            <i class="fas fa-shield-alt"></i>
+                            Compra 100% segura • Garantia de 7 dias
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="garantia">
+                    <div class="garantia-content">
+                        <div class="garantia-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="garantia-text">
+                            <h4>Garantia Incondicional de 7 Dias</h4>
+                            <p>Se por qualquer motivo você não ficar satisfeito com o workshop, devolvemos 100% do seu dinheiro, sem perguntas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Quanto tempo leva para ver resultados?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A maioria dos nossos alunos consegue acumular suas primeiras milhas em 30 dias. Com as estratégias certas, é possível acumular milhares de milhas já no primeiro mês.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Preciso ter cartão de crédito?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Embora cartões de crédito sejam uma das principais ferramentas, ensinamos diversas outras formas de acumular milhas, incluindo compras em portais e transferências de pontos.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>O workshop é ao vivo ou gravado?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>O workshop é composto por aulas gravadas em alta qualidade, que você pode assistir no seu ritmo. Você terá acesso vitalício ao conteúdo.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Funciona para qualquer pessoa?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Nosso método funciona para qualquer pessoa que tenha gastos mensais básicos como supermercado, farmácia, combustível, etc. Não importa a renda.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>E se eu não conseguir aplicar as estratégias?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Oferecemos garantia incondicional de 7 dias. Se você não conseguir aplicar as estratégias ou não ficar satisfeito, devolvemos 100% do seu dinheiro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="section-content">
+                <h2>Junte-se à Comunidade Finanças Inteligentes</h2>
+                <p>Transforme sua vida financeira e viaje mais com inteligência.</p>
+                
+                <div class="cta-final-card">
+                    <div class="resumo-oferta">
+                        <h3>Você terá acesso a:</h3>
+                        <ul>
+                            <li>Acesso ilimitado a todo o conteúdo</li>
+                            <li>Aulas e mentorias ao vivo</li>
+                            <li>Grupo exclusivo de materiais e suporte</li>
+                            <li>Material complementar e ferramentas</li>
+                            <li>Garantia de 7 dias</li>
+                        </ul>
+                        <div class="valor-total">
+                            <span>Valor anual: <strike>R$ 997</strike></span>
+                            <span class="valor-promocional">Hoje por apenas R$ 497</span>
+                            <span class="valor-parcelado">ou 12x de R$ 49,70</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-final-button">
+                        <a href="#" class="btn btn-primary btn-large" onclick="abrirCheckout()">
+                            <i class="fas fa-arrow-right"></i>
+                            Quero Fazer Parte da Comunidade
+                        </a>
+                        <p class="ultima-chance">⚠️ Vagas limitadas para esta oferta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="https://luizabandeira.com.br" target="_blank" class="footer-logo">
+                    <img src="assets/favicon.png" alt="Logo" class="logo-img">
+                    <span class="logo-text">Economiza</span>
+                </a>
+                <div class="footer-info">
+                    <span>&copy; 2025 Economiza. Todos os direitos reservados.</span>
+                    <span>CNPJ: 60.302.044/0001-06</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
